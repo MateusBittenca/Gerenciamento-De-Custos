@@ -11,14 +11,26 @@
     align-items: center;
 }
 
-.item{
-    margin-right:  1em;
+.item {
+    display: flex;
+    align-items: center; /* Alinha texto e ícones verticalmente */
+    margin-right: 1em;
 }
 
 .item a {
     color: #fff;
     text-decoration: none;
+    display: flex;
+    align-items: center; /* Garante que o link herda o alinhamento */
 }
+
 .item a:hover {
+    color: #ffbb33;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em; /* Espaço entre o ícone e o texto */
     color: #ffbb33;
 }
