@@ -1,24 +1,25 @@
 import { Outlet, Link } from "react-router-dom";
-import { FaBlog, FaHouseUser, FaPhone, FaPlus, FaUser } from 'react-icons/fa'
+import { FaHouseUser, FaPhone, FaPlus } from 'react-icons/fa'
 
 import styles from './Navbar.module.css'
+
 function Navbar() {
     return (
         <>
-            <h1>Gerenciamento de custos</h1>
-            <nav className= {styles.Navbar}>
-                <ul>
-                    <li>
+          
+            <nav className={styles.Navbar}>
+                <ul className= {styles.list}>
+                    <li className= {styles.item}>
                         <FaHouseUser />
                         <Link to="/">Home</Link>
                     </li>
-                    <li>
+                    <li className= {styles.item}>
                         <FaPhone />
                         <Link to="/contato">Contato</Link>
                     </li>
-                    <li>
+                    <li className= {styles.item}>
                         <FaPlus />
-                        <Link to = "/projeto">Novo projeto</Link>
+                        <Link to="/projeto">Novo projeto</Link>
                     </li>
                 </ul>
             </nav>
