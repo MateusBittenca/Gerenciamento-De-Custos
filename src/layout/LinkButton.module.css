@@ -1,0 +1,14 @@
+.btn {
+    display: inline-flex; /* Garante que o conteúdo fique na mesma linha */
+    align-items: center; /* Alinha verticalmente o ícone e o texto */
+    gap: 0.5em; /* Espaçamento entre o ícone e o texto */
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: #ffbb22;
+}

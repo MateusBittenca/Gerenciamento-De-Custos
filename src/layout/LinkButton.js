@@ -1,9 +1,12 @@
 import styles from './LinkButton.module.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { FaPlus } from 'react-icons/fa'
 
-function LinkButton({to}){
-    return(
-        <Link className={styles.btn} to = {to}>
+function LinkButton({ to, text }) {
+    return (
+        <Link className={styles.btn} to={to}> 
+        <FaPlus  />
+        {text}
         </Link>
 
     )
