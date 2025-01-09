@@ -1,0 +1,49 @@
+.Footer {
+    position: fixed;
+    /* Fixa o footer */
+    bottom: 0;
+    /* Coloca o footer no final da janela */
+    width: 100%;
+    /* Faz o footer ocupar toda a largura */
+    background-color: #222;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    text-align: center;
+    /* Centraliza o conteúdo */
+    padding: 1.5em;
+    /* Espaçamento interno */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra leve */
+    z-index: 1000;
+    /* Garante que o footer fique acima de outros elementos */
+}
+
+
+.social_List {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.social_List li {
+    margin: 0 1em;
+}
+
+.social_List li:hover {
+    color: #ffbb33;
+}
+
+.social_List svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copy_right {
+    margin-top: 2em;
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: #ffbb33;
+}
