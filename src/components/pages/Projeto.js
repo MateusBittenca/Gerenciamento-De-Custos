@@ -1,3 +1,6 @@
+import styles from "./Project.module.css"
+
+
 import { useLocation } from "react-router-dom"
 
 import Message from "../../layout/Message"
@@ -12,7 +15,11 @@ function Projeto() {
 
     return (
         <div>
-            <h1>Meus Projetos</h1>
+            <div>
+                <h1>Meus Projetos</h1>
+                <a href="#">Novo Projeto</a>
+            </div>
+         
             {message && <Message type='success' msg={message} />}
         </div>
     )
