@@ -1,17 +1,46 @@
 {
   "projects": [
     {
-      "id": "203f",
+      "id": "95e4",
+      "name": "teste",
+      "budget": "6000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
       "cost": 0,
       "services": []
     },
     {
-      "id": "9d2b",
+      "id": "6033",
+      "name": "teste",
+      "budget": "321321321",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
       "cost": 0,
       "services": []
     },
     {
-      "id": "913a",
+      "id": "a48a",
+      "name": "Mateus ",
+      "budget": "6000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "3e1a",
+      "name": "Reforma",
+      "budget": "6000000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
       "cost": 0,
       "services": []
     }
