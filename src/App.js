@@ -12,18 +12,25 @@ import Project from "./components/pages/Project";
 function App() {
   return (
     <div className="App">
+
       <BrowserRouter>
+
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contato" element={<Contato />} />
-          <Route path="/NovoProjeto" element={<NovoProjeto />} />
-          <Route path="/projeto" element={<Projeto />} />
-          <Route path="/empresa" element={<Empresa />} />
-          <Route path = "/project/:id" element={<Project />} />
-        </Routes>
+        <Container>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contato" element={<Contato />} />
+            <Route path="/NovoProjeto" element={<NovoProjeto />} />
+            <Route path="/projeto" element={<Projeto />} />
+            <Route path="/empresa" element={<Empresa />} />
+            <Route path="/project/:id" element={<Project />} />
+          </Routes>
+        </Container>
         <Footer />
+
       </BrowserRouter>
+
+
     </div>
   );
 }

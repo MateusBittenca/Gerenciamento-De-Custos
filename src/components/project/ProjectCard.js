@@ -20,7 +20,6 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
                 <button onClick={() => handleRemove(id)}>
                     <BsFillTrashFill />Excluir
                 </button>
-
             </div>
         </div>
     )
