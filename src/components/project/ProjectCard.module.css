@@ -2,7 +2,7 @@
     padding: 1em;
     border: 1px solid #7a7a7a;
     border-radius: 5px;
-    width: 80%;
+    width: 25%;
     margin: 0.5%;
 }
 
@@ -12,6 +12,7 @@
     padding: .4em;
     margin-bottom: 1.3em;
     font-size: 1.3em;
+    border-radius: 6px;
 }
 
 .project_card p {
